@@ -1,0 +1,14 @@
+
+   .mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    height: calc(100vh - 56px);
+    margin-left: 240px;
+    margin-top: 56px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
